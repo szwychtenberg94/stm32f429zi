@@ -18,7 +18,7 @@ int main(void)
 	 //SystemCoreClock = 8000000; // taktowanie 8Mhz
 	 SystemCoreClockUpdate();
 	 HAL_Init();
-
+//dodany komentarz
 	 __HAL_RCC_GPIOG_CLK_ENABLE(); //port z ledami PG13 i PG14
 	 __HAL_RCC_GPIOA_CLK_ENABLE();//port z przyciskiem
 
